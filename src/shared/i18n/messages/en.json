@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "preview": "Preview",
+    "cabinet": "Cabinet",
+    "manager": "Manager",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "landing": {
+    "title": "Upload DXF. Get instant quote. Launch laser cutting in minutes.",
+    "subtitle": "Cuttim is a production service where clients upload drawings, select material and quantity, pay online, then track fabrication and delivery while managers process files and ship finished parts.",
+    "startPreview": "Try Public Preview",
+    "signIn": "Sign In"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "upload": {
+      "title": "Upload",
+      "description": "Client uploads a DXF drawing and we extract geometry metadata."
+    },
+    "quote": {
+      "title": "Quote",
+      "description": "Choose material and quantity. System calculates cutting and shipping cost."
+    },
+    "pay": {
+      "title": "Pay",
+      "description": "Client confirms order and pays securely through YooKassa."
+    },
+    "production": {
+      "title": "Produce",
+      "description": "Manager downloads file, runs laser machine, checks quality and packs."
+    },
+    "delivery": {
+      "title": "Deliver",
+      "description": "Tracking number is assigned and order status is updated in cabinet."
+    }
+  },
+  "preview": {
+    "material": "Material",
+    "quantity": "Quantity",
+    "shipping": "Shipping",
+    "cta": "Save this preview",
+    "resultTitle": "Estimated quote"
+  }
+}
