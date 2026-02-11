@@ -16,6 +16,7 @@ import {
   type PreviewResponse,
 } from '@/shared/lib/api/orders';
 import {createPayment} from '@/shared/lib/api/payments';
+import {DxfPreview} from './dxf-preview';
 
 type ShippingMethod = 'pickup' | 'courier' | 'express';
 
@@ -254,6 +255,7 @@ export function QuotePreviewForm() {
 
       <Card className="space-y-4">
         <h3 className="text-lg font-semibold">{t('resultTitle')}</h3>
+        <DxfPreview file={file} />
         <div className="space-y-2 text-sm text-[var(--muted)]">
           <p>File: {file?.name ?? 'demo-part.dxf'}</p>
           <p>
